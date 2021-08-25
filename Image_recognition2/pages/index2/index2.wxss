@@ -1,0 +1,131 @@
+/* pages/index2/index2.wxss */
+.Bpicture{
+    position: absolute;
+    top:0rpx;
+    left:0rpx;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+.wenzi1{
+    color: rgb(27, 128, 211);
+    height: 150rpx;
+    display: flex;
+    justify-content: center;
+    font-size: 60rpx;
+    font-family: cursive;
+}
+
+.main{
+    width:100%;
+}
+.playerInfo{
+    margin: 20rpx 20rpx 0 20rpx;
+}
+.video{
+    border :2rpx solid #cccccc;
+}
+.videoContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 600rpx;
+    position: relative;
+}
+/*播放小图标*/
+.playImg{
+    position: absolute;
+    top: 36%;
+    left:46%;
+    width:64rpx;
+    height: 64rpx;
+}
+.footerbtn{
+    display: flex;
+    margin-top: 20rpx;
+}
+.button{
+    width:40%;
+}
+.videoUrlResult{
+    width: 100%;
+    margin-top: 20rpx;
+}
+.videoUrlResult .title{ 
+    font-size: 28rpx;
+    font-weight: bold;
+    color: red;
+    margin-left: 20rpx;
+}
+
+.buju image{
+    margin: 0;
+    width: 650rpx;
+    height: 370rpx;
+    border-radius: 20rpx;
+    border: none;
+}
+.buju2 image{
+    margin: 0;
+    width: 350rpx;
+    height: 50rpx;
+    border-radius: 20rpx;
+    border: none;
+}
+
+.Bpicture{
+    position: absolute;
+    top:0rpx;
+    left:0rpx;
+    width:100%;
+    height:100%;
+    z-index:-1;
+}
+
+.wenzi2{
+    color: rgb(113, 210, 255);
+    height: 150rpx;
+    display: flex;
+    justify-content: center;
+    font-size: 50rpx;
+    font-family: cursive;
+}
+
+.buju2 button{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-size: 35rpx;
+    background-color: lightskyblue;
+    width: 300rpx;
+}
+
+.buju{
+    width: 740rpx;
+    height: 50rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+button[plain]{
+    border: 0;
+    width: 680rpx;
+}
+
+.buju button{
+    width: 680rpx;
+    height: 80rpx;
+}
+
+.dabuju{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+page{
+    background-color: rgb(236, 255, 254);
+}

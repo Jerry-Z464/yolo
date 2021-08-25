@@ -1,0 +1,13 @@
+{
+    "pages": [
+        "pages/upindex/upindex",
+        "pages/index/index",
+        "pages/index2/index2"
+    ],
+    "window": {
+        "navigationBarTitleText": "识别小程序",
+        "navigationBarBackgroundColor": "#ffc4df",
+        "navigationBarTextStyle": "black"
+    },
+    "sitemapLocation": "sitemap.json"
+}

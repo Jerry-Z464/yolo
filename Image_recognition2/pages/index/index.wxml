@@ -1,0 +1,23 @@
+<!--pages/index.wxml-->
+<view class="backg">
+    <view class="wenzi1">点击下方框框</view>
+    <view class="wenzi1">选择图片</view>
+    <image class='Bpicture' src="/static/picture/12.jpg"></image>
+</view>
+
+<view class="dabuju">
+    <view class="buju">
+        <view bindtap="uploadbuju1">
+            <button plain="true">
+                <image src="{{imageList}}">
+                </image>
+            </button>
+        </view>
+    </view>
+    <view class="buju2">
+        <button bindtap="senddata">
+            <view class="anniu">图像识别</view></button>
+    </view> 
+</view>
+
+

@@ -1,0 +1,14 @@
+<!--pages/upindex/upindex.wxml-->
+<view class='test'>
+  <view class="temp">欢迎使用</view>
+ <view class="tmp">请选择上传图片或者视频</view>
+  <image class='mytest'  src='/static/picture/10.jpeg'></image>
+</view>
+
+<view class="TZ1">
+        <button bindtap="CM1">上传图片</button>
+</view>
+
+<view class="TZ2">
+        <button bindtap="CM2">上传视频</button>
+</view>

@@ -1,0 +1,29 @@
+{
+    "setting": {},
+    "condition": {
+        "plugin": {
+            "list": []
+        },
+        "game": {
+            "list": []
+        },
+        "gamePlugin": {
+            "list": []
+        },
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/upindex/upindex",
+                    "pathName": "pages/upindex/upindex",
+                    "query": "",
+                    "scene": null
+                },
+                {
+                    "name": "pages/upindex/upindex",
+                    "pathName": "pages/upindex/upindex",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}

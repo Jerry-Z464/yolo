@@ -1,0 +1,26 @@
+<!--pages/index2/index2.wxml-->
+<view class="backg" style="opacity:{{0.95}}">
+    <view class="wenzi1">点击下方按钮选择视频</view>
+    <view class="wenzi2">视频不要超过20秒</view>
+    <image class='Bpicture' src="/static/picture/13.jpeg"></image>
+</view>
+
+
+<view class="dabuju">
+    <view class="buju">
+        
+            <view class="buju2">
+                <view class="videoContent">
+                    <video src="{{videoList}}"></video>
+                </view>
+                <button bindtap="senddata">
+                        <view class="anniu">开始识别</view>
+                    </button>
+                    <button bindtap="SC">
+                        <view class="anniu">上传视频</view>
+                    </button>
+            </view>
+       
+    </view>
+     
+</view>

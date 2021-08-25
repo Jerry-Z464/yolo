@@ -1,0 +1,27 @@
+/* pages/upindex/upindex.wxss */
+
+.mytest{
+    position: absolute;
+    top:0rpx;
+    left:0rpx;
+    width:100%;
+    height:100%;
+    z-index:-1;
+ }
+ 
+
+ .temp{
+    text-align: center;
+    font-size: 50rpx;
+    line-height:2;
+    /*opacity: 0.8;透明度*/
+    color: rgb(255, 255, 255);
+  }
+  .tmp{
+    height: 867rpx;
+    text-align:center;
+    font-size:50rpx;
+    line-height:2;
+    /* opacity:0.65; 透明的*/
+    color: rgb(0, 0, 0);
+  }
